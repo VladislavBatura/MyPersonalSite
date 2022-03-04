@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.container1 {
+  padding: 50px 0 75px 0;
+  background-image: url('../assets/images/BackgroundImageCoding.png');
+  height: 770px;
+  overflow: hidden;
+}
+
+.img {
+  width: 110%;
+  margin-right: 10%;
+}
+
+.full-width {
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+* {
+  font-family: 'VT323', monospace;
+  font-size: 24px;
+  color: white;
+}
+
+h2 {
+  font-size: 72px;
+}
+
+.background {
+  background-color: #4E298B;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.container {
+  display: table;
+  width: 100%;
+  height: 671px;
+  padding: 0px;
+  background-image: url('../assets/images/BackgroundImageCoding2.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* this will be treated as a Minimum! It will stretch to fit content */
+}
+
+div.wrapper {
+  display: table-row;
+  height: 0px;
+  /* take as little as possible, while still fitting content */
+}
+
+img {
+  display: table-cell;
+  width: 100%;
+  /*scale to fit*/
+}
+
+.bottom {
+  display: table-cell;
+  height: 100%;
+  /* take as much as possible */
+}
