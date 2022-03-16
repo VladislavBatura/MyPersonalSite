@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ChildComponent } from './child/child.component';
 import { HeaderComponent } from './header/header.component';
 import { SkillsComponent } from './skills/skills.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { SkillsComponent } from './skills/skills.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
