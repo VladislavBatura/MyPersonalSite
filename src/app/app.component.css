@@ -31,6 +31,14 @@ h2 {
   background-repeat: no-repeat;
 }
 
+.secondContainer {
+  background-image: url('../assets/images/BackgroundSpaceProjects.png');
+}
+
 .skillsDiv {
   padding: 0% 20%;
+}
+
+.projectDiv {
+  margin: 5% 5% 0% 5%;
 }
