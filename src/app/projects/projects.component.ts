@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
-  anketnikImage = '../../assets/images/Anketnik.PNG';
+  anketnikImage = 'assets/images/Anketnik.PNG';
   anketnikInfo = `This is Anketnik. Simple WebForms application for access database and operate with it.
    It provides a simple, but powerfull functionalities - update, view and delete ankets.
     Anketnik was built exclusive for a server of Minecraft to use by me, and my friends, to sort new players and interview them with comfort for ourselves.`;
