@@ -26,3 +26,8 @@
     background-color: #ddd;
     color: black;
   }
+
+  p {
+    margin: 0;
+    user-select: none;
+  }

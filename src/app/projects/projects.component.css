@@ -1,17 +1,32 @@
 img {
-    max-width: 40%;
-    position: absolute;
-    top: 0%;
-    left: 3%;
+    max-width: 100%;
+    float: left;
+    padding-left: 2.5%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    height: auto;
 }
 
 div {
-    position: relative;
+    overflow: auto;
 }
 
 div .child {
-    display: inline-block;
     white-space: initial;
-    max-width: 40%;
-    margin: 0% 5% 5% 50%;
+    display: inline;
+}
+
+.column { 
+    float: left;
+    width: 50%;
+}
+
+.row {
+    padding: 0 1.5% 0 1.5%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
