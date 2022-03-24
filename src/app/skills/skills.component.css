@@ -1,25 +1,25 @@
 div {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 img {
-    margin-top: 2%;
-    margin-bottom: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 p {
-    white-space: nowrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p .child {
-    display: inline-block;
+  display: inline-block;
 }
 
 p .prog {
-    width: 80%;
-    margin-left: 3%;
-    margin-top: 3%;
+  width: 80%;
+  margin-left: 3%;
+  margin-top: 3%;
 }

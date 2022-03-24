@@ -1,12 +1,11 @@
-import { NgModule }      from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule }   from '@angular/forms';
-import { DataComponent }   from './data.component';
+import { FormsModule } from '@angular/forms';
+import { DataComponent } from './data.component';
 
 @NgModule({
-    imports:      [ BrowserModule, FormsModule ],
-    declarations: [ DataComponent],
-    exports: [ DataComponent]
+  imports: [BrowserModule, FormsModule],
+  declarations: [DataComponent],
+  exports: [DataComponent],
 })
-
-export class DataModule { }
+export class DataModule {}

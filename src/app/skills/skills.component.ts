@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.css']
+  styleUrls: ['./skills.component.css'],
 })
 export class SkillsComponent implements OnInit {
   cSharpImage = `assets/images/CSharp.png`;
@@ -16,9 +16,7 @@ export class SkillsComponent implements OnInit {
   angular = 40;
   postgre = 70;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

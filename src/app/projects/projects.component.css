@@ -1,32 +1,32 @@
 img {
-    max-width: 100%;
-    float: left;
-    padding-left: 2.5%;
-    padding-bottom: 1%;
-    padding-right: 2%;
-    height: auto;
+  max-width: 100%;
+  float: left;
+  padding-left: 2.5%;
+  padding-bottom: 1%;
+  padding-right: 2%;
+  height: auto;
 }
 
 div {
-    overflow: auto;
+  overflow: auto;
 }
 
 div .child {
-    white-space: initial;
-    display: inline;
+  white-space: initial;
+  display: inline;
 }
 
-.column { 
-    float: left;
-    width: 50%;
+.column {
+  float: left;
+  width: 50%;
 }
 
 .row {
-    padding: 0 1.5% 0 1.5%;
+  padding: 0 1.5% 0 1.5%;
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
